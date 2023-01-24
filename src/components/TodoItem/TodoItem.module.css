@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.wrapper > div {
+   display: flex;
+   align-items: center;
+   grid-gap: 10px;
+}
+
+button {
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.button_del {
+    background-color: red;
+}
+
+.compleat {
+    text-decoration: line-through;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.button__save {
+    border-radius: 0 .25rem .25rem 0;
+    background-color: chocolate;
+}
+
